@@ -35,6 +35,9 @@ class BerlinStreetTrees(models.Model):
         managed = False
         db_table = 'strassenbaeume_berlin_mitte'
 
+    def distance(self, other):
+        return self.the_geom.distance(other.the_geom)
+
     # Returns the string representation of the model.
     def __str__(self):  # __unicode__ on Python 2
         return self.gml_id
