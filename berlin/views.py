@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from rest_framework import viewsets
+from rest_framework.pagination import PageNumberPagination
+
 from . import models
 from . import serializers
 
@@ -12,3 +14,4 @@ class BerlinStreetTreeViewSet(viewsets.ModelViewSet):
     """
     queryset = models.BerlinStreetTrees.objects.all()
     serializer_class = serializers.BerlinStreetTreeSerializer
+    pagination_class = PageNumberPagination
