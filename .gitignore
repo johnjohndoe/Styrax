@@ -1,0 +1,6 @@
+styrax/settings.py
+
+.idea/
+*.iml
+
+__pycache__/
