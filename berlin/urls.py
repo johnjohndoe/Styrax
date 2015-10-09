@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*
+# -*- coding: utf-8 -*-
 
 from django.conf.urls import include, url
 from rest_framework.routers import DefaultRouter
