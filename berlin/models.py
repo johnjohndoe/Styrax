@@ -36,7 +36,13 @@ class BerlinStreetTrees(models.Model):
         db_table = 'strassenbaeume_berlin_mitte'
 
     def distance(self, other):
-        return self.the_geom.distance(other.the_geom)
+        if isinstance(other, BerlinStreetTrees):
+            return self.the_geom.distance(other.the_geom)
+        if isinstance(other, int):
+            other_tree = BerlinStreetTrees.objects.get(pk=other)
+            return self.the_geom.distance(other_tree.the_geom)
+        raise ValueError("Parameter must be either of type 'BerlinStreetTrees' or of type 'int'. "
+                         "Check parameter: {0}".format(other))
 
     # Returns the string representation of the model.
     def __str__(self):  # __unicode__ on Python 2
