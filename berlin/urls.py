@@ -8,6 +8,7 @@ from . import views
 
 router = DefaultRouter()
 router.register(r'berlinstreettrees', views.BerlinStreetTreeViewSet)
+router.register(r'distance', views.DistanceView, base_name='distance')
 
 
 urlpatterns = [
