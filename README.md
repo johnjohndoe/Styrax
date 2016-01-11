@@ -23,3 +23,10 @@ from styrax.settings_development import *
 ```
 
 Please mind that it won't be committed to the repository since it is excluded there.
+
+
+## Usage
+
+Visit the following path to access the API and documentation:
+
+* http://localhost:8000/api
