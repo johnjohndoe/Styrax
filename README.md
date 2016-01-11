@@ -27,6 +27,7 @@ Please mind that it won't be committed to the repository since it is excluded th
 
 ## Usage
 
-Visit the following path to access the API and documentation:
+Visit the following paths to access the API and documentation:
 
 * http://localhost:8000/api
+* http://localhost:8000/docs/
