@@ -11,4 +11,4 @@ psycopg2==2.6.1
 ptyprocess==0.5
 PyYAML==3.11
 simplegeneric==0.8.1
-traitlets==4.0.0
+traitlets==4.1.0
