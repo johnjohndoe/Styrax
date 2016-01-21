@@ -2,11 +2,11 @@ decorator==4.0.6
 Django==1.9.1
 django-rest-swagger==0.3.4
 djangorestframework==3.3.2
-ipython==4.0.2
+ipython==4.0.3
 ipython-genutils==0.1.0
 path.py==8.1.2
 pexpect==4.0.1
-pickleshare==0.5
+pickleshare==0.6
 psycopg2==2.6.1
 ptyprocess==0.5
 PyYAML==3.11
