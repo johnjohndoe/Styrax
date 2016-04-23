@@ -1,8 +1,9 @@
+backports.shutil-get-terminal-size==1.0.0
 decorator==4.0.9
 Django==1.9.5
 django-rest-swagger==0.3.5
 djangorestframework==3.3.3
-ipython==4.1.2
+ipython==4.2.0
 ipython-genutils==0.1.0
 path.py==8.2.1
 pexpect==4.0.1
