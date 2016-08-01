@@ -1,6 +1,6 @@
 backports.shutil-get-terminal-size==1.0.0
 decorator==4.0.10
-Django==1.9.7
+Django==1.9.9
 django-rest-swagger==0.3.8
 djangorestframework==3.3.3
 ipython==5.0.0
